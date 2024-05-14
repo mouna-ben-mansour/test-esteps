@@ -1,0 +1,7 @@
+{
+  "name": "accelerometer-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

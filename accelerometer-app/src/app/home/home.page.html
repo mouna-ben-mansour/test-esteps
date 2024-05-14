@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Accelerometer Data
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      Accelerometer Data
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-label>X: </ion-label>
+          <ion-text>{{accData?.x}}</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-label>Y: </ion-label>
+          <ion-text>{{accData?.y}}</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-label>Z: </ion-label>
+          <ion-text>{{accData?.z}}</ion-text>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
